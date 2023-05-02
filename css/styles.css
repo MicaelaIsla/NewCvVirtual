@@ -209,11 +209,11 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: pink;
   text-decoration: underline;
 }
 a:hover {
-  color: #974a2d;
+  color: var(--bs-pink) ;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -7353,11 +7353,11 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #bd5d38 !important;
+  color: var(--bs-pink) !important;
 }
 
 .text-secondary {
-  color: #6c757d !important;
+  color:var(--bs-pink)  !important;
 }
 
 .text-success {
@@ -7365,7 +7365,7 @@ textarea.form-control-lg {
 }
 
 .text-info {
-  color: #0dcaf0 !important;
+  color:var(--bs-pink) !important;
 }
 
 .text-warning {
@@ -7409,7 +7409,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: var(--bs-pink)  !important;
 }
 
 .bg-secondary {
@@ -10964,7 +10964,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: pink;
 }
 
 .dev-icons {
